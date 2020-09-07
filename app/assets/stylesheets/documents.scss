@@ -1,7 +1,8 @@
 // DOCS INDEX
+@import "global";
 
-   #docs {
-	.doc {
+#documents {
+	.document {
 		background: #78594B;
 		width: 90%;
 		min-height: 100px;
@@ -12,7 +13,7 @@
 		position: relative;
 		text-align: center;
 		.title {
-			@include bold_font;
+			//@include bold_font;
 			color: white;
 			margin: 0;
 			left: 4.5%;
@@ -32,7 +33,7 @@
 			position: absolute;
 			bottom: .25rem;
 			left: 27.5%;
-			color: $light_gray;
+			//color: $light_gray;
 			font-weight: bold;
 			font-size: .75rem;
 			text-align: left;
@@ -42,7 +43,7 @@
 
 // DOCS SHOW
 
-#doc_show {
+#document_show {
 	.title {
 		@include bold_font;
 		color: #78594B;
